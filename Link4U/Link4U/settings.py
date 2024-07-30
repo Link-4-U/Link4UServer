@@ -76,11 +76,11 @@ WSGI_APPLICATION = 'Link4U.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'sql_server.pyodbc',
+        'ENGINE': 'mssql',
         'NAME': 'Link4U',  # Your database name
         'USER': '',  # Leave empty for Windows Authentication
         'PASSWORD': '',  # Leave empty for Windows Authentication
-        'HOST': 'DESKTOP-1FLFB2I\SQLEXPRESS',  # Named instance
+        'HOST': 'DESKTOP-DC8D9H7',  # Named instance
         'PORT': '',  # Leave empty for default port
 
         'OPTIONS': {
