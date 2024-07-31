@@ -80,7 +80,9 @@ DATABASES = {
         'NAME': 'Link4U',  # Your database name
         'USER': '',  # Leave empty for Windows Authentication
         'PASSWORD': '',  # Leave empty for Windows Authentication
-        'HOST': 'DESKTOP-DC8D9H7',  # Named instance
+        #'HOST': 'DESKTOP-DC8D9H7',  # Named instance Rivki
+        'HOST': 'DESKTOP-1FLFB2I\SQLEXPRESS',  # Named instance Efrat
+
         'PORT': '',  # Leave empty for default port
 
         'OPTIONS': {
