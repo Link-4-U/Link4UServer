@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'link4us',  # Your new app
+    'rest_framework',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
